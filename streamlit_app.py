@@ -5,7 +5,7 @@ import pickle as pickle_lib
 import constants as const_lib
 from content import score_cfg, content_cfg, content_plus_cfg
 from interface.components import  create_movie_widget, show_basic_info, display_movie_info
-from helper.predict import content_recommendations, weight_avg_recommendations, content_recommendations_plus
+from helper.predict import content_recommendations, load_movie_scores, content_recommendations_plus
 
 # Set the page configuration
 st_lib.set_page_config(page_title="Recommender system", layout="wide")
@@ -38,13 +38,13 @@ content_based_col = create_movie_widget(content_cfg)
 content_plus_col = create_movie_widget(content_plus_cfg)
 
 # Display recommended movies based on weighted average
-score_based_recommended_movies = weight_avg_recommendations()
-show_basic_info(score_based_col, display_score)
+score_based_recommended_movies = load_movie_scores()
+# show_basic_info(score_based_col, display_score)
 
 # Display recommended movies when the search button is clicked
 if search_movies_btn:
     content_based_movies = content_recommendations(movie_data, movie_options)
     display_movie_info(content_based_movies, content_based_col, display_score)
 
-    content_plus_movies = content_recommendations(movie_data, movie_options)
+    content_plus_movies = content_recommendations_plus(movie_data, movie_options)
     display_movie_info(content_plus_movies, content_plus_col, display_score)
