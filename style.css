@@ -1,0 +1,114 @@
+/* Styles for Streamlit Expander Header */
+.streamlit-expanderHeader {
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #00ffc8;
+    font-size: 24px;
+    background-color: #111111b3;
+    border-radius: 30px;
+    text-align: center;
+    padding: 5px;
+    margin: 10px;
+}
+
+.streamlit-expanderHeader > * {
+    color: white;
+}
+
+/* Styles for Streamlit Markdown */
+.stMarkdown {
+    text-align: left;
+}
+
+/* Styles for Streamlit Expander Content */
+.streamlit-expanderContent {
+    color: white;
+    background-color: #111111b8;
+}
+
+/* Styles for Streamlit Buttons */
+.row-widget.stButton > * {
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 12px;
+    margin-top: 30px;
+    background-color: #262731;
+    color: #00ffc8;
+    font-size: 20px;
+}
+
+/* Styles for Specific Class */
+.css-f341up.e16nr0p31 {
+    background-color: #0000009e;
+    padding: 19px;
+    margin-left: 30px;
+    border-radius: 10px;
+}
+
+/* Styles for Specific Div */
+div.e1tzin5v2:not(.css-ulq27u):not(.css-ht50i) {
+    background-color: #030000c4;
+    border-radius: 5px;
+    border: 1px solid #00ffc8;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: 12px;
+    padding: 10px;
+    font-family: serif;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Styles for Hover Effect */
+.css-1v0mbdj.etr89bj1 {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.css-1v0mbdj.etr89bj1:hover {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    z-index: 1000;
+}
+
+/* Styles for Specific Class */
+.css-177yq5e {
+    margin-bottom: 0rem;
+}
+
+/* Styles for Specific Class */
+.css-e370rw.e19lei0e0 {
+    visibility: hidden;
+}
+
+/* Styles for Specific Class */
+.css-zw9mgv.edgvbvh6 {
+    color: white;
+    border-color: white;
+}
+
+/* Styles for Movie Recommender System */
+#movie-recommender-system {
+    font-family: monospace;
+    text-align: center;
+    font-weight: bold;
+    color: #00ffc8;
+    font-size: 30px;
+}
+
+/* Styles for Streamlit App */
+.stApp.streamlit-wide {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.747), rgba(0, 0, 0, 0.795)), url("https://repository-images.githubusercontent.com/275336521/20d38e00-6634-11eb-9d1f-6a5232d0f84f");
+    background-size: cover;
+}
+
+/* Styles for Streamlit Element */
+.st-ep {
+    color: #4f6460;
+}
