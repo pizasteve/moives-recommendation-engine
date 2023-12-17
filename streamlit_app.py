@@ -39,7 +39,7 @@ content_plus_col = create_movie_widget(content_plus_cfg)
 
 # Display recommended movies based on weighted average
 score_based_recommended_movies = load_movie_scores()
-show_basic_info(score_based_col, display_score)
+# show_basic_info(score_based_col, display_score)
 
 # Display recommended movies when the search button is clicked
 if search_movies_btn:
