@@ -95,12 +95,11 @@ div.e1tzin5v2:not(.css-ulq27u):not(.css-ht50i) {
 
 /* Styles for Movie Recommender System */
 #movie-recommender-system {
-    font-family: Source Sans Pro, sans-serif;
+    font-family: monospace;
     text-align: center;
     font-weight: bold;
     color: #00ffc8;
-    font-size: 50px;
-    margin-bottom: 1em;
+    font-size: 30px;
 }
 
 /* Styles for Streamlit App */
